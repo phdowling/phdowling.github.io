@@ -26,7 +26,7 @@ function DownloadItem(props: {header: string, subheader: string, text: string, h
     return (
         <div className="DownloadItem">
             <ReactMarkdown components={{a: NoRefLink}}>{content}</ReactMarkdown>
-              <a 
+              <div className="DownloadButtonContainer"><a 
                 className="DownloadButtonA"
                 href={props.href} 
                 target="_blank" 
@@ -34,6 +34,7 @@ function DownloadItem(props: {header: string, subheader: string, text: string, h
                 style={{textDecoration: "none", color: "black"}}>
                     Download
               </a>
+              </div>
         </div>
     )
 }

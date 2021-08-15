@@ -41,11 +41,16 @@
     margin-bottom: 15px;
 }
 
+.DownloadButtonContainer{
+    margin-top: 30px;
+}
+
 .DownloadButtonA{
+    /*
     -webkit-appearance: button;
     -moz-appearance: button;
     appearance: button;
-    
+    */
     padding-left: 15px;
     padding-right: 15px;
     padding-top: 10px;
