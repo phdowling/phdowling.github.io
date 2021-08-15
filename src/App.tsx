@@ -9,12 +9,13 @@ import {
 import Home from './components/Home';
 import Links from './components/Links';
 import Footer from './components/Footer';
+import Contact from './components/Contact';
 
 function App() {
   return (
     <div className="App">
      <Router>
-      <Header links={{"/": "Home", "/links": "Links"}}/>
+      <Header links={{"/": "Home", "/links": "Links", "/contact": "Contact"}}/>
       <div className="MainContent"> 
         <Switch>
           <Route exact path="/">
@@ -22,6 +23,9 @@ function App() {
           </Route>
           <Route path="/links">
             <Links />
+          </Route>
+          <Route path="/contact">
+            <Contact />
           </Route>
         </Switch>
       </div>
