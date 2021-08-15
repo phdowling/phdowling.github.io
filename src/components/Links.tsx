@@ -1,8 +1,13 @@
+import ReactMarkdown from "react-markdown";
+import ContentPage from "./ContentPage";
+
+const content = `Nothing yet`;
+
 function Links() {
     return (
-      <div>
-        <h2>Links</h2>
-      </div>
+      <ContentPage>
+        <ReactMarkdown>{content}</ReactMarkdown>
+      </ContentPage>
     );
 }
 
