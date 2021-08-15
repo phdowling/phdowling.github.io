@@ -14,14 +14,17 @@ function Header(props: HeaderProps) {
         },
         [history],
     );
-
+        // <div style={{width: isPortrait? "90%": "70%", margin: "auto"}}>
     return (
-        <div style={{width: isPortrait? "90%": "80%", margin: "auto"}}>
-          <h1 onClick={handleClick}>Philipp Dowling</h1>
+        
+        <div style={{width: isPortrait? "90%": "70%", margin: "auto"}}>
+          <Link to="/" className="AppLink">
+            <h1 >Philipp Dowling</h1>
+          </Link>
           <hr/>
           <div>
               {Object.entries(props.links).map(([href, text], i) => (
-                <Link to={href} id={href + i}>
+                <Link className="AppLink" to={href} id={href + i}>
                     <div style={{margin: "10px", display: "inline-block"}}>
                         {text}
                     </div>

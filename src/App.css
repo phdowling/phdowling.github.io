@@ -5,7 +5,26 @@
   position: absolute;
 }
 
+
 .ContentPage{
     text-align: left;
     min-width: 100vw;
+}
+
+.MainContent{
+    
+}
+
+.Footer{
+    min-width: 100vw;
+    bottom: 5px;
+    position: absolute;
+    height: fit-content;
+    width: 100%;
+    font-size: x-small;
+}
+
+.AppLink{
+    text-decoration: none;
+    color: black;
 }
