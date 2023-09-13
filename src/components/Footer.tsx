@@ -1,7 +1,7 @@
 function Footer(){
     return (
         <footer className="Footer">
-            ©2021 by Philipp Dowling
+            ©2023 by Philipp Dowling
         </footer>
     );
 }
