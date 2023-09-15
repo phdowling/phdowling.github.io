@@ -3,7 +3,7 @@ import { useMediaQuery } from "react-responsive";
 import {ContentPage} from "./ContentPage";
 
 const content = `
-If you'd like to get in touch with me, simply fill out the form below.
+Please use the form below to get in touch with me.
 `;
 
 function Contact(){
@@ -14,8 +14,8 @@ function Contact(){
               title="airtable-contact-form"
               className="airtable-embed" 
               src="https://airtable.com/embed/shrLBfPGailzVgiWV?backgroundColor=purple" 
-              width="100%"
-              height="790px"
+              width="85%"
+              height="700px"
               style={{background: "transparent", border: "1px solid #ccc", display: "block"}}>
             </iframe>
         </ContentPage>
